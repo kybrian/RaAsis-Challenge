@@ -1,4 +1,16 @@
 # RaAsis-Challenge
+# Setup Instructions
+#### Create Environment
+`python3 -m venv env`
+
+#### Activate Environment
+`source env/bin/activate`
+
+#### Install Dependencies
+`pip install -r requirements.txt`
+
+___
+
 # Task Description
 You are tasked with analysing a ride-sharing dataset to extract insights and trends.
 Your goal is to process the data, uncover patterns, and generate actionable findings.

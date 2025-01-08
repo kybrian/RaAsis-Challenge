@@ -2,8 +2,11 @@ import pandas as pd
 
 # 1. Data Loading and Inspection
 # Load the dataset into a Pandas DataFrame.
+excel_file = "Ride Sharing Dataset.xlsx"
+df = pd.read_excel(excel_file)
 
 # Display the first few rows and summarize the dataset.
+print(df.head(5))
 
 # Check for missing values and any anomalies.
 
